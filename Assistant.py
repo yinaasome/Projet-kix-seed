@@ -1,9 +1,23 @@
+"""
+✅ Python 3.10.10
+
+✅ Ollama 0.16.3
+
+✅ LangChain 1.2.10 (dans ton .venv) 
+Maintenant ⚠️ IMPORTANT :
+
+Dans LangChain 1.x, langchain.prompts n’existe plus. donc il faut "langchain_core.prompts"
+"""
+# pip install --upgrade pandas streamlit langchain langchain-core langchain-ollama
+#pip install pandas streamlit langchain langchain-core langchain-ollama
+# pip show langchain  ollama --version   python --version
 import os
 import re
 #import pickle
 import pandas as pd
 import streamlit as st
-from langchain.prompts import PromptTemplate
+#from langchain.prompts import PromptTemplate   ()
+from langchain_core.prompts import PromptTemplate
 from langchain_ollama import ChatOllama
 from functools import reduce
 import operator
