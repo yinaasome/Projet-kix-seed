@@ -8,10 +8,10 @@ import time
 
 # Étape 1 : Connexion
 
-login_url = "https://stats.seeds.bf/api/auth/login?annee_id=2024&ecole_db_name=undefined"
+login_url = ""
 login_payload = {
-    "email": "abdoul@gmail.com",         # Remplace par ton email
-    "password": "d96IQQWvZoig$%"  # Remplace par ton mot de passe
+    "email": "",         # Remplace par ton email
+    "password": ""  # Remplace par ton mot de passe
 }
 
 headers_login = {
