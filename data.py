@@ -27,7 +27,7 @@ token = response_login.json().get("token")
 print("Connexion réussie. Token récupéré.")
 
 # Étape 2 : Récupération des données paginées
-data_url = "https://stats.seeds.bf/api/get_ia_datas/2024"
+data_url = ""
 headers = {
     "Authorization": f"Bearer {token}",
     "Accept": "application/json"
